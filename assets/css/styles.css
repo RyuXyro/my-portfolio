@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+body {
+    margin-top: 10%;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+/* .header {} */
+
+.main {
+    margin-bottom: 100px;
+}
+
+/* .footer {} */
+
+.nav-header {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    margin-right: 20px;
+    float: left;
+}
+
+.nav-header:hover {
+    background-color: rgb(68, 164, 177);
+}
+
+.main-header {
+    background-color: rgb(95, 90, 82);
+    padding-left: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+}
+
+.header-title {
+    text-decoration: none;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-top: 24px;
+    margin-left: 36px;
+    position: absolute;
+    left: 0px;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+/* item and img */
+
+.item {
+    margin-top: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+.item-title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 600px;
+    border-radius: 10px;
+    margin-left: 28px;
+}
+
+
+/* footer */
+
+footer {
+    margin: -8px;
+    background-color: rgb(95, 90, 82);
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    margin-left: -4px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.me-left {
+    margin-left: -10px;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.info-right {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    margin-right: -4px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.me-right {
+    margin-right: -10px;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+.info-center {
+    /* color: rgb(95, 90, 82); */
+    color: rgb(182, 182, 182);
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+/* other */
+/* .active {
+    border-bottom: 1px rgb(255, 255, 255);
+} */

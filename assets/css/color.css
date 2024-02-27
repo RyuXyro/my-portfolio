@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.white {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.black {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
