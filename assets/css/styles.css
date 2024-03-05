@@ -57,12 +57,23 @@ nav {
     margin-bottom: 70px;
 }
 
+.about-title {
+    text-align: center;
+    /* margin-left: 320px; */
+}
+
+.about-text {
+    /* margin-top: 40px; */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 /* item and img */
 
 .item {
     margin-top: 80px;
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
 }
 
 .item-title {
@@ -72,9 +83,9 @@ nav {
 }
 
 .img {
-    height: 600px;
+    height: 800px;
     border-radius: 10px;
-    margin-left: 28px;
+    margin-left: 30px;
 }
 
 
@@ -93,12 +104,12 @@ footer {
 
 .left-footer {
     margin-right: auto;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .right-footer {
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .center-footer {
